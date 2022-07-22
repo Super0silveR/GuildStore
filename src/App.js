@@ -11,7 +11,7 @@ import Checkout1 from './checkout1';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/bon-compagnon-2'>
       <div className="App">
         <Headers></Headers>
         <Navbar></Navbar>
